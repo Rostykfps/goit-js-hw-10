@@ -18,3 +18,34 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+/* Додаткові стилі */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.country-list li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+img {
+  width: 30px;
+}
+.country-list p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+.country-info h2 {
+  display: inline;
+}
+.country-info span {
+  font-weight: 700;
+}
+.country-info li {
+  font-weight: 500;
+}
